@@ -1,5 +1,5 @@
-# Javascript usage:
-# var text = JSON.parse(file_contents);
+# current events wrong answer
+# add her response to your response to the question
 
 import json
 
@@ -13,6 +13,7 @@ import json
 # q = [question_string,[answer,answer,answer,answer]]
 # answers are dictionaries with 
 # .answer_txt
+# .response_txt
 # .trust_pts 
 # .love_pts 
 
@@ -69,10 +70,13 @@ def inputOps(filename):
 					pDict["love_pts"]    = int(love_string)
 					pDict["trust_pts"]   = int(trust_string)
 			elif line.startswith("#"):
-					response              = line.replace("#","")
+				response = line.replace("#","")
+				if inQ:
+					current_ansDict = q[1][len(q[1])-1]
+					current_ansDict["response_txt"] = response
+				elif inP:
 					pDict["response_txt"] = response
-					if pDict not in p:
-						p.append(pDict)
+					p.append(pDict)
 		if inP:
 			conversation.append(p)
 		if inQ:
@@ -91,6 +95,6 @@ def twine2json(filename,outname):
 	outputOps(conversation,outname)
 
 if __name__ == "__main__":
-	twine2json("ch1test.txt","catlady.json")
+	twine2json("dog.txt","dog.json")
 	print("fdajsl")
 

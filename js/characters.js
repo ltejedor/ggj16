@@ -31,22 +31,26 @@ var conv_catlady = [
       {
         "trust_pts": 10,
         "love_pts": 35,
-        "answer_text": "I work with wood."
+        "answer_text": "I work with wood.",
+        "response_txt": "Ooh, a lumberjack? I've heard you make lots of money. Just curious, how many cats do you think could live off a lumberjack's salary? Three hundred? Five hundred? I'm asking for a friend."
       },
       {
         "trust_pts": 5,
         "love_pts": 7,
-        "answer_text": "(LIE) I always wanted to be a painter."
+        "answer_text": "(LIE) I always wanted to be a painter.",
+        "response_txt": "Aw, how cute. Can you draw me something? Can you draw cats?"
       },
       {
         "trust_pts": 5,
         "love_pts": 20,
-        "answer_text": "(LIE) I have many passions."
+        "answer_text": "(LIE) I have many passions.",
+        "response_txt": "I know what you mean. How could someone just have one thing they want to do with their life? Personally, I love cuddling cats, but I also love feeding cats, and making cats wear funny clothes, and watching my cats fall in love, and learning cat languages, and melding minds with my cats... Why limit ourselves?"
       },
       {
         "trust_pts": -10,
         "love_pts": -40,
-        "answer_text": "Odd jobs."
+        "answer_text": "Odd jobs.",
+        "response_txt": "Oh, so nothing reliable? I don't know if I could see myself with someone who doesn't have a real job."
       }
     ]
   ],
@@ -72,7 +76,7 @@ var conv_catlady = [
     {
       "trust_pts": -20,
       "love_pts": -44,
-      "response_txt": "Taking time for yourself is important, I guess. One of my older cats, Mr. Meowgi, taught me to clear my mind and align myself with nature. He's a goof. I love Mr. Meowgi.",
+      "response_txt": "What, just because I'm a woman you think I want to talk about cooking? Do you want me to cook for you, is that it? No. Not happening. Just forget it. God. How dare you?",
       "prompt_text": "Cooking"
     }
   ],
@@ -82,22 +86,26 @@ var conv_catlady = [
       {
         "trust_pts": 5,
         "love_pts": -20,
-        "answer_text": "Chop wood."
+        "answer_text": "Chop wood.",
+        "response_txt": "That sounds so boring. So you just chop wood all day? That's such a... okay, whatever, that's your thing I guess."
       },
       {
         "trust_pts": 5,
         "love_pts": 0,
-        "answer_text": "Go on long walks."
+        "answer_text": "Go on long walks.",
+        "response_txt": "Okay. Boring."
       },
       {
         "trust_pts": 15,
         "love_pts": 30,
-        "answer_text": "Read."
+        "answer_text": "Read.",
+        "response_txt": "I love reading! I read this one book about funny stories with talking cats. It was based on a true story. You should read it! You can borrow my copy."
       },
       {
         "trust_pts": 5,
         "love_pts": 10,
-        "answer_text": "Meditate."
+        "answer_text": "Meditate.",
+        "response_txt": "Taking time for yourself is important, I guess. One of my older cats, Mr. Meowgi, taught me to clear my mind and align myself with nature. He's a goof. I love Mr. Meowgi."
       }
     ]
   ],
@@ -123,7 +131,7 @@ var conv_catlady = [
     {
       "trust_pts": 33,
       "love_pts": -79,
-      "response_txt": "Why am I even here? This just isn't going to work out.",
+      "response_txt": "Uhhhh... Are you... okay?",
       "prompt_text": "The voices"
     }
   ],
@@ -133,22 +141,26 @@ var conv_catlady = [
       {
         "trust_pts": 33,
         "love_pts": 42,
-        "answer_text": "Yes."
+        "answer_text": "Yes.",
+        "response_txt": "Good! I love cats. Have I told you about my cat Majesty? He's the oldest of my cats. He runs the herd, but the other day he got so scared of the vacuum that he ran into a wall. It was ADORABLE!"
       },
       {
         "trust_pts": 33,
         "love_pts": 49,
-        "answer_text": "Hell yes."
+        "answer_text": "Hell yes.",
+        "response_txt": "Great! I love cats. Have I told you about my cat Majesty? He's the oldest of my cats. He runs the herd, but the other day he got so scared of the vacuum that he ran into a wall. It was ADORABLE!"
       },
       {
         "trust_pts": 33,
         "love_pts": -60,
-        "answer_text": "No, I'm more of a dog person."
+        "answer_text": "No, I'm more of a dog person.",
+        "response_txt": "Oh. I don't think this is going to work."
       },
       {
         "trust_pts": 33,
         "love_pts": -86,
-        "answer_text": "I'm allergic."
+        "answer_text": "I'm allergic.",
+        "response_txt": "Why am I even here? This just isn't going to work out."
       }
     ]
   ]
@@ -180,7 +192,7 @@ var conv_dog = [
     {
       "trust_pts": 30,
       "love_pts": -42,
-      "response_txt": "Bark! Rrrrrrr bark!",
+      "response_txt": "Bark! Bark bark!",
       "prompt_text": "Poetry"
     }
   ],
@@ -190,22 +202,26 @@ var conv_dog = [
       {
         "trust_pts": 41,
         "love_pts": 38,
-        "answer_text": "Yes"
+        "answer_text": "Yes",
+        "response_txt": "Bark! Rrrrrrr bark!"
       },
       {
         "trust_pts": 21,
         "love_pts": 19,
-        "answer_text": "I don't like to talk about my job."
+        "answer_text": "I don't like to talk about my job.",
+        "response_txt": "Bark! Rrrrrrr bark!"
       },
       {
         "trust_pts": -31,
         "love_pts": 24,
-        "answer_text": "How dare you speak to me that way!"
+        "answer_text": "How dare you speak to me that way!",
+        "response_txt": "Bark! Rrrrrrr bark!"
       },
       {
         "trust_pts": 24,
         "love_pts": -31,
-        "answer_text": "What the fuck am I doing with my life?"
+        "answer_text": "What the fuck am I doing with my life?",
+        "response_txt": "Bark! Rrrrrrr bark!"
       }
     ]
   ],
@@ -231,7 +247,7 @@ var conv_dog = [
     {
       "trust_pts": -8,
       "love_pts": -44,
-      "response_txt": " Ruff! Bark bark!",
+      "response_txt": "Bark! Bark!",
       "prompt_text": "Drugs"
     }
   ],
@@ -241,22 +257,26 @@ var conv_dog = [
       {
         "trust_pts": 29,
         "love_pts": 20,
-        "answer_text": "No."
+        "answer_text": "No.",
+        "response_txt": " Ruff! Bark bark!"
       },
       {
         "trust_pts": 33,
         "love_pts": -33,
-        "answer_text": "I don't understand. I am not a dog."
+        "answer_text": "I don't understand. I am not a dog.",
+        "response_txt": " Ruff! Bark bark!"
       },
       {
         "trust_pts": -44,
         "love_pts": 37,
-        "answer_text": "Do you want to go on a walk?"
+        "answer_text": "Do you want to go on a walk?",
+        "response_txt": " Ruff! Bark bark!"
       },
       {
         "trust_pts": 22,
         "love_pts": -17,
-        "answer_text": "Very well, thank you for asking."
+        "answer_text": "Very well, thank you for asking.",
+        "response_txt": " Ruff! Bark bark!"
       }
     ]
   ],
@@ -282,7 +302,7 @@ var conv_dog = [
     {
       "trust_pts": -3,
       "love_pts": 12,
-      "response_txt": "The fundamental problem of political philosophy is still precisely the one that Spinoza saw so clearly (and that Wilhelm Reich rediscovered): Why do men fight for their servitude as stubbornly as though it were their salvation?",
+      "response_txt": "Rrrrrrrr!",
       "prompt_text": "Books"
     }
   ],
@@ -292,22 +312,26 @@ var conv_dog = [
       {
         "trust_pts": 11,
         "love_pts": 26,
-        "answer_text": "Hahaha, that's a good one!"
+        "answer_text": "Hahaha, that's a good one!",
+        "response_txt": "One must still have chaos in oneself to be able to give birth to a dancing star."
       },
       {
         "trust_pts": 5,
         "love_pts": 22,
-        "answer_text": "Do you want a treat?"
+        "answer_text": "Do you want a treat?",
+        "response_txt": "Psychologically experienced consciousness is therefore no longer pure consciousness; construed Objectively in this way, consciousness itself becomes something transcendent, becomes an event in that spatial world which appears, by virtue of consciousness, to be transcendent."
       },
       {
         "trust_pts": -31,
         "love_pts": -22,
-        "answer_text": "(LIE) Actually, I love my job."
+        "answer_text": "(LIE) Actually, I love my job.",
+        "response_txt": "Like everything metaphysical the harmony between thought and reality is to be found in the grammar of the language."
       },
       {
         "trust_pts": 19,
         "love_pts": 9,
-        "answer_text": "My favorite color is red."
+        "answer_text": "My favorite color is red.",
+        "response_txt": "The fundamental problem of political philosophy is still precisely the one that Spinoza saw so clearly (and that Wilhelm Reich rediscovered): Why do men fight for their servitude as stubbornly as though it were their salvation?"
       }
     ]
   ]
