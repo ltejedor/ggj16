@@ -1,3 +1,4 @@
+
 /*
 Hippie profile for easy copypasting :)
 This is a metaphor that surfaces from time to time. I'm not even sure what it signifies, but it seems accurate of me in a way. I'm often a close bystander to the action on life's stage, without being quite part of the action, but it's not the front row either. however I sometimes sneak a signal to a cast member who has forgotten his or her line.
@@ -7,13 +8,18 @@ Of course, the view from row C varies with the actors and stage settings.
 Right now I will take a short Intermission, in order to chomp on some emergency potato chips. When I get back to my seat, maybe I'll find there a note left from you.
 */
 
-dateStart();
 var datingSiteVisible;
 var dateTurns = 0;
 var convoTurns = 0;
 var love_score = 40;
 var trust_score = 40;
 var person = "catlady";
+
+
+
+dateStart();
+
+
 
 function dateStart(){
 	datingSite();
@@ -32,6 +38,7 @@ if(datingSiteVisible){
 		$('.js-dating-profile').slideUp("slow");
 		datingSiteVisible = false;
 	});
+
 	startConversation();
 
 }
@@ -81,10 +88,12 @@ function startConversation(){
 }
 
 $('.js-number-btn').click(function(){
+
 	$('.js-textbox-container-you').fadeOut("fast");
 	$('.js-they-textbox').fadeIn("fast");
 	$('.js-they-textbox-content').text('');
 	$('.js-loading-question').fadeIn();
+
 	  setTimeout(function () {
       $('.js-loading-question').fadeOut("fast", function(){
 	      	if(love_score > 75 && trust_score > 50){
@@ -119,6 +128,9 @@ $('.js-topic-btn').click(function(){
 	var old_trust_score = trust_score;
 	love_score = Math.min(100,love_score + conv_catlady[dateTurns][thisTopicNum].love_pts);
 	trust_score = Math.min(100,trust_score + conv_catlady[dateTurns][thisTopicNum].trust_pts);
+
+
+
 	updateState("catlady",love_score,trust_score,old_love_score,old_trust_score);
 
 	dateTurns++;
@@ -148,6 +160,7 @@ $('.js-answer-btn').click(function(){
       startConversation();
   }, 4000);
 });
+
 
 
 function updateState(person,love_score,trust_score,old_love_score,old_trust_score) {
@@ -184,5 +197,5 @@ function updateState(person,love_score,trust_score,old_love_score,old_trust_scor
 				$(".person").attr("src","img/hippie-photos/neutral.jpg");
 			}
 		}
-		
+
 }
