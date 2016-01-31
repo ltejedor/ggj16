@@ -55,10 +55,21 @@ textarea {
 /* ==========================================================================
    Dexter Game Specific Styling
    ========================================================================== */
+::selection {
+  background: #EF6363; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #EF6363; /* Gecko Browsers */
+}
+
 
 body{
     overflow: hidden;
     font-family: 'Lekton', sans-serif;
+}
+
+p{
+    cursor: default;
 }
 
 .table{
@@ -110,7 +121,7 @@ body{
 }
 
 .pink span {
-    background-color: #B70C73;
+    background-color: #C74A4A;
 }
 
 .blue span {
