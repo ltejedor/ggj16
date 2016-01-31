@@ -89,9 +89,9 @@ def outputOps(obj,outname="out.json"):
 def twine2json(filename,outname):
 	conversation = inputOps(filename)
 	#print(json.dumps(conversation))
-	outputOps(conversation)
+	outputOps(conversation,outname)
 
 if __name__ == "__main__":
-	twine2json("ch1test.txt","outfile.txt")
+	twine2json("ch1test.txt","catlady.json")
 	print("fdajsl")
 
