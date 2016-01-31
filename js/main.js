@@ -1,3 +1,12 @@
+/*
+Hippie profile for easy copypasting :)
+This is a metaphor that surfaces from time to time. I'm not even sure what it signifies, but it seems accurate of me in a way. I'm often a close bystander to the action on life's stage, without being quite part of the action, but it's not the front row either. however I sometimes sneak a signal to a cast member who has forgotten his or her line.
+
+Of course, the view from row C varies with the actors and stage settings.
+
+Right now I will take a short Intermission, in order to chomp on some emergency potato chips. When I get back to my seat, maybe I'll find there a note left from you.
+*/
+
 dateStart();
 var datingSiteVisible;
 var dateTurns = 0;
