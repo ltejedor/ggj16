@@ -1,0 +1,167 @@
+[
+  [
+    {
+      "trust_pts": 0, 
+      "love_pts": -20, 
+      "response_txt": "School is an oppressive social construct that only exists to separate us from our own minds, and with nature.", 
+      "prompt_text": "School"
+    }, 
+    {
+      "trust_pts": 0, 
+      "love_pts": -30, 
+      "response_txt": "Work is an oppressive social construct that only exists to separate us from our own minds, and with nature.", 
+      "prompt_text": "Career"
+    }, 
+    {
+      "trust_pts": 15, 
+      "love_pts": 30, 
+      "response_txt": "I feel very connected with animals. In my last life, I was a raccoon. In my next life, I think I will be a raccoon again. I guess you could say that they're my spirit animal, but that's technically over-simplifying it.", 
+      "prompt_text": "Animals"
+    }, 
+    {
+      "trust_pts": 5, 
+      "love_pts": 20, 
+      "response_txt": "I wouldn't call myself religious, but I feel a deep connection with all living things. Even things that you might not consider \"alive,\" like grass, and the wind, and rocks, and coffee. Do you get me?", 
+      "prompt_text": "Religion"
+    }
+  ], 
+  [
+    "What is your favorite place in the world?", 
+    [
+      {
+        "trust_pts": 15, 
+        "love_pts": 30, 
+        "answer_text": "(LIE) I feel most at home looking out at the ocean and feeling like I am among the waves.", 
+        "response_txt": "Yes! Sometimes when I go to the beach, I feel like I'm part man, part ocean. There's nothing like submerging yourself in the abundance of Nature. Just let it in, let it in."
+      }, 
+      {
+        "trust_pts": -15, 
+        "love_pts": -25, 
+        "answer_text": "(LIE) I want to visit the rainforests before they go extinct. The poor, poor rainforests.", 
+        "response_txt": "Are you making fun of me? The plight of the rainforests is not something to take lightly."
+      }, 
+      {
+        "trust_pts": 5, 
+        "love_pts": -10, 
+        "answer_text": "My bed.", 
+        "response_txt": "At least you're honest. I respect that. But if you don't care to explore this great Earth, what point is there in even being alive?"
+      }, 
+      {
+        "trust_pts": 0, 
+        "love_pts": -15, 
+        "answer_text": "New York City.", 
+        "response_txt": "I don't know how anyone can like this city. It's just disgusting what mankind has done to Nature here. This beautiful planet was not meant to be suffocated by concrete. Man's reach extends its grasp..."
+      }
+    ]
+  ], 
+  [
+    {
+      "trust_pts": 0, 
+      "love_pts": 0, 
+      "response_txt": "I have found that the cinema is a shameful waste of our precious time on this glorious Earth. Why watch recreations of life when we are all living each and ", 
+      "prompt_text": "Movies"
+    }, 
+    {
+      "trust_pts": 25, 
+      "love_pts": 30, 
+      "response_txt": "We are all one family, all one living creative entity, experiencing itself subjectively. What could be more captivating than seeing family throughout all the world?", 
+      "prompt_text": "Family"
+    }, 
+    {
+      "trust_pts": 10, 
+      "love_pts": 30, 
+      "response_txt": "There's nothing quite like placing yourself directly into the Belly of Nature's Bounty. It's like retreating to the Mother's Womb in times of struggle. \"Shh child,\" our Mother coddles us, \"you are safe here.\"", 
+      "prompt_text": "Hiking"
+    }, 
+    {
+      "trust_pts": 5, 
+      "love_pts": 10, 
+      "response_txt": "Drugs are merely tools for reaching the Higher Plane. But they can be very useful and powerful tools. Why, are you looking for a spirit guide? I just got my online certification.", 
+      "prompt_text": "Drugs"
+    }
+  ], 
+  [
+    "Tell me about your first pet.", 
+    [
+      {
+        "trust_pts": 15, 
+        "love_pts": 13, 
+        "answer_text": "(LIE) I have never had a pet.", 
+        "response_txt": "It's important to have animals around you. I recommend finding a friendly raccoon. They can teach you secrets that \"traditional\" pets will never understand."
+      }, 
+      {
+        "trust_pts": 22, 
+        "love_pts": 28, 
+        "answer_text": "I had a dog when I was a kid.", 
+        "response_txt": "Dogs are magnificent animals. I feel an immediate kinship to dogs, but I am more connected to raccoons. Have you ever held a raccoon? We can go play with my raccoon later. I would like that."
+      }, 
+      {
+        "trust_pts": -13, 
+        "love_pts": 8, 
+        "answer_text": "My dog died when I was a kid.", 
+        "response_txt": "Oh, I'm so sorry to hear that. But it's better to have loved and lost than to not be one with the True Goddess, even though mortality makes our time in this World brief. That's what makes it beautiful."
+      }, 
+      {
+        "trust_pts": -35, 
+        "love_pts": -22, 
+        "answer_text": "(LIE) I had a dog when I was a kid but I don't know what happened to it.", 
+        "response_txt": "What do you mean? How could you let a beautiful sliver of the World slip through your fingers and not know why? "
+      }
+    ]
+  ], 
+  [
+    {
+      "trust_pts": 15, 
+      "love_pts": 10, 
+      "response_txt": "Unenlightened people will always find more ways to quibble over meaningless differences between us. The world would be a much better place if we learned to all love the Mother Goddess and return to our primal state in Nature.", 
+      "prompt_text": "Politics"
+    }, 
+    {
+      "trust_pts": 15, 
+      "love_pts": 10, 
+      "response_txt": "Unenlightened people will always find more ways to quibble over meaningless differences between us. The world would be a much better place if we learned to all love the Mother Goddess and return to our primal state in Nature.", 
+      "prompt_text": "Religion"
+    }, 
+    {
+      "trust_pts": 22, 
+      "love_pts": 20, 
+      "response_txt": "Unenlightened people will always find more ways to divide us from our Original State-- that's why I don't believe in technology. The world would be a much better place if we learned to all love the Mother Goddess and return to our primal state in Nature.", 
+      "prompt_text": "Technology"
+    }, 
+    {
+      "trust_pts": 22, 
+      "love_pts": 20, 
+      "response_txt": "Unenlightened people will always find more ways to divide us from our Original State-- that's why I don't believe in cooking. The world would be a much better place if we learned to all love the Mother Goddess and return to our primal state in Nature.", 
+      "prompt_text": "Cooking"
+    }
+  ], 
+  [
+    "Have you figured out your calling in life?", 
+    [
+      {
+        "trust_pts": 0, 
+        "love_pts": 0, 
+        "answer_text": "Yes.", 
+        "response_txt": "Oh. Okay. Well then."
+      }, 
+      {
+        "trust_pts": -20, 
+        "love_pts": -23, 
+        "answer_text": "Life does not call me. I am the one who calls.", 
+        "response_txt": "What a terrible way to see the world. "
+      }, 
+      {
+        "trust_pts": 5, 
+        "love_pts": 5, 
+        "answer_text": "No, I'm more of a dog person.", 
+        "response_txt": "That... what does that have to do with anything? Are you even taking this seriously?"
+      }, 
+      {
+        "trust_pts": 33, 
+        "love_pts": 59, 
+        "answer_text": "Life is an endless series of journies, never just one thing.", 
+        "response_txt": "You're absolutely right. One day we may feel the universe drawing us towards the ocean, and the next day to the stars."
+      }
+    ]
+  ]
+]

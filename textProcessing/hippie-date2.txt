@@ -1,0 +1,88 @@
+Date2
+Ryker (Hippie)
+
+This is a metaphor that surfaces from time to time. I'm not even sure what it signifies, but it seems accurate of me in a way. I'm often a close bystander to the action on life's stage, without being quite part of the action, but it's not the front row either. however I sometimes sneak a signal to a cast member who has forgotten his or her line.
+
+Of course, the view from row C varies with the actors and stage settings.
+
+Right now I will take a short Intermission, in order to chomp on some emergency potato chips. When I get back to my seat, maybe I'll find there a note left from you.
+
+Start date
+
+TURN1 1 1
+*School [-20] <0>
+#School is an oppressive social construct that only exists to separate us from our own minds, and with nature.
+*Career [-30] <0>
+#Work is an oppressive social construct that only exists to separate us from our own minds, and with nature.
+*Animals [30] <15>
+#I feel very connected with animals. In my last life, I was a raccoon. In my next life, I think I will be a raccoon again. I guess you could say that they're my spirit animal, but that's technically over-simplifying it.
+*Religion [20] <5>
+#I wouldn't call myself religious, but I feel a deep connection with all living things. Even things that you might not consider "alive," like grass, and the wind, and rocks, and coffee. Do you get me?
+
+Next
+
+TURN2 1 1
+Question: What is your favorite place in the world?
+
+*(LIE) I feel most at home looking out at the ocean and feeling like I am among the waves. [30] <15>
+#Yes! Sometimes when I go to the beach, I feel like I'm part man, part ocean. There's nothing like submerging yourself in the abundance of Nature. Just let it in, let it in.
+*(LIE) I want to visit the rainforests before they go extinct. The poor, poor rainforests. [-25] <-15>
+#Are you making fun of me? The plight of the rainforests is not something to take lightly.
+*My bed. [-10] <5>
+#At least you're honest. I respect that. But if you don't care to explore this great Earth, what point is there in even being alive?
+*New York City. [-15] <0>
+#I don't know how anyone can like this city. It's just disgusting what mankind has done to Nature here. This beautiful planet was not meant to be suffocated by concrete. Man's reach extends its grasp...
+
+Next
+
+TURN3 1 1
+*Movies [0] <0>
+#I have found that the cinema is a shameful waste of our precious time on this glorious Earth. Why watch recreations of life when we are all living each and 
+*Family [30] <25>
+#We are all one family, all one living creative entity, experiencing itself subjectively. What could be more captivating than seeing family throughout all the world?
+*Hiking [30] <10>
+#There's nothing quite like placing yourself directly into the Belly of Nature's Bounty. It's like retreating to the Mother's Womb in times of struggle. "Shh child," our Mother coddles us, "you are safe here."
+*Drugs [10] <5>
+#Drugs are merely tools for reaching the Higher Plane. But they can be very useful and powerful tools. Why, are you looking for a spirit guide? I just got my online certification.
+
+Next
+
+TURN4 1 1
+Question: Tell me about your first pet.
+
+*(LIE) I have never had a pet. [13] <15>
+#It's important to have animals around you. I recommend finding a friendly raccoon. They can teach you secrets that "traditional" pets will never understand.
+*I had a dog when I was a kid. [28] <22>
+#Dogs are magnificent animals. I feel an immediate kinship to dogs, but I am more connected to raccoons. Have you ever held a raccoon? We can go play with my raccoon later. I would like that.
+*My dog died when I was a kid. [8] <-13>
+#Oh, I'm so sorry to hear that. But it's better to have loved and lost than to not be one with the True Goddess, even though mortality makes our time in this World brief. That's what makes it beautiful.
+*(LIE) I had a dog when I was a kid but I don't know what happened to it. [-22] <-35>
+#What do you mean? How could you let a beautiful sliver of the World slip through your fingers and not know why? 
+
+Next
+
+TURN5 1 1
+*Politics [10] <15>
+#Unenlightened people will always find more ways to quibble over meaningless differences between us. The world would be a much better place if we learned to all love the Mother Goddess and return to our primal state in Nature.
+*Religion [10] <15>
+#Unenlightened people will always find more ways to quibble over meaningless differences between us. The world would be a much better place if we learned to all love the Mother Goddess and return to our primal state in Nature.
+*Technology [20] <22>
+#Unenlightened people will always find more ways to divide us from our Original State-- that's why I don't believe in technology. The world would be a much better place if we learned to all love the Mother Goddess and return to our primal state in Nature.
+*Cooking [20] <22>
+#Unenlightened people will always find more ways to divide us from our Original State-- that's why I don't believe in cooking. The world would be a much better place if we learned to all love the Mother Goddess and return to our primal state in Nature.
+
+Next
+
+TURN6 1 1
+Question: Have you figured out your calling in life?
+
+*Yes. [0] <0>
+#Oh. Okay. Well then.
+*Life does not call me. I am the one who calls. [-23] <-20>
+#What a terrible way to see the world. 
+*No, I'm more of a dog person. [5] <5>
+#That... what does that have to do with anything? Are you even taking this seriously?
+*Life is an endless series of journies, never just one thing. [59] <33>
+#You're absolutely right. One day we may feel the universe drawing us towards the ocean, and the next day to the stars.
+
+
