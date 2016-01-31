@@ -20,7 +20,32 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <div style="display:none;" class="overlay js-cover">
+        </div>
+        <div style="display:none;" class="dating-profile js-dating-profile">
+            <div class="top-bar">
+                <div class="x-btn-close js-x-btn">
+                </div>
+            </div>
 
+            <h2>forestfire.biz</h2>
+            <div class="dating-content">
+                <div class="clearfix">
+                    <div class="user-content">
+                        <div class="user-picture">
+                            <img src="img/profile-pics/jen-01.png">
+                        </div>
+                        <div class="user-descr">
+                            <h3>Susan</h3>
+                            <p>I am open minded, good looking, white female looking for a company. You should be an educated professional. I live by myself, I pay my own rent. I am a attractive & comedic person.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="start-btn js-start-btn">
+                    <p>Start Date</p>
+                </div>
+            </div>
+        </div>
 
         <div class="progress-bar-container">
             <div class="clearfix">
@@ -38,11 +63,11 @@
             </div>
         </div>
 
-        <div class="they-textbox">
+        <div style="display:none;" class="js-they-textbox they-textbox">
             <div class="textbox-label label-left">
-                <p>Jen</p>
+                <p>Susan</p>
             </div>
-            <p class="they-textbox-content">So like, who even are you?</p>
+            <p class="they-textbox-content js-they-textbox-content"></p>
         </div>
 
         <div class="textbox-container">
@@ -53,7 +78,7 @@
 
 
             <div class="you-textbox">
-                <div class="you-answer-textbox">
+                <div style="display:none;" class="you-answer-textbox">
                     <div class="truth-container">
                         <div class="text-btn btn-truth">
                             <span>text truth</span>
@@ -67,22 +92,44 @@
                             <span>text lie</span>
                         </div>
                         <div class="text-btn btn-lie">
-                            <span>text lie</span>
+                            <span>text lie here</span>
                         </div>
                     </div>
 
                 </div>
+
                 <div class="you-ask-textbox">
+                    <div class="text-message-prompt">
+                        <p>What will you ask Jen about?</p>
+                    </div>
+                    <div class="topics-container">
+                        <div name="0" class="text-btn btn-truth js-topic-btn">
+                            <span class="js-topic-0"></span>
+                        </div>
+                        <div name="1" class="text-btn btn-truth js-topic-btn">
+                            <span class="js-topic-1"></span>
+                        </div>
+                        <div name="2" class="text-btn btn-truth js-topic-btn">
+                            <span class="js-topic-2"></span>
+                        </div>
+                        <div name="3" class="text-btn btn-truth js-topic-btn">
+                            <span class="js-topic-3"></span>
+                        </div>
+                    </div>
+
+
                 </div>
+
+
             </div>
         </div>
 
         <img class="person" src="img/jenn-photos/neutral-2.jpg">
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
         <script src="js/plugins.js"></script>
+        <script src="js/characters.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

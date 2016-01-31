@@ -72,6 +72,128 @@ p{
     cursor: default;
 }
 
+.overlay{
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+.dating-profile{
+    width: 75%;
+    height: 75%;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 101;
+    background-color: #C74A4A;
+    border-radius: 10px;
+}
+
+.dating-profile h2{
+    margin-top: 60px;
+    margin-left: 25px;
+    font-size: 1.7em;
+    color: #E0E0DA;
+}
+
+.top-bar{
+    width: 100%;
+    background-color: #E0E0DA;
+    z-index: 102;
+    position: absolute;
+    top: 0;
+    height: 45px;
+    border-radius: 10px 10px 0 0;
+}
+
+.dating-content{
+    background-color: #E0E0DA;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -15%;
+    width: 94%;
+    height: 75%;
+    overflow: scroll;
+}
+
+.user-content{
+    width: 90%;
+    margin: 25px auto;
+}
+
+.user-picture{
+    width: 30%;
+    float: left;
+}
+
+.user-picture img{
+    width: 85%;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.user-descr{
+    width: 55%;
+    float: left;
+    margin-left: 5%;
+}
+
+.user-descr h3{
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 3em;
+    margin: 0;
+    line-height: .5em;
+    margin-top: 25px;
+    border-bottom: 5px solid #C84A4A;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+.start-btn{
+    text-align: center;
+    margin: 20px auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.7em;
+    color: #C84A4A;
+    width: 23%;
+    border: 5px solid #C84A4A;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.start-btn:hover{
+    background-color: #C84A4A;
+    color: #E0E0DA;
+}
+
+.start-btn p{
+    margin: 15px auto 9px;
+}
+
+.x-btn-close{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: #C74A4A;
+    position: absolute;
+    top: 11px;
+    right: 12px;
+}
+
+.x-btn-close:hover{
+    background-color: #D45050;
+}
+
+
+
 .table{
     width: 50%;
     margin: auto;
@@ -259,6 +381,26 @@ box-shadow: inset 0px 11px 9px -10px rgba(42,43,54,1);
 
 .btn-lie:active{
     background-color: #A94141;
+}
+
+.text-message-prompt{
+    margin-left: 3%;
+    width: 35%;
+    float: left;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.topics-container{
+    float: left;
+    width: 60%;
+}
+
+.topics-container .text-btn{
+    float: left;
+    width: 35%;
+    margin-left: 6%;
+    margin-bottom: 0;
 }
 
 .they-textbox{
