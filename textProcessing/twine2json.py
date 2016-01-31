@@ -34,7 +34,6 @@ def inputOps(filename):
 				inQ   = True
 				qtext = line.replace("Question: ","")
 				q     = [qtext,[]]
-				print(q)
 			elif line.startswith("*"):
 				if inQ:
 					ans          = line.replace("*","")
