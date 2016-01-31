@@ -72,6 +72,17 @@ p{
     cursor: default;
 }
 
+.intro-screen{
+    position: relative;
+    z-index: 200;
+}
+
+.intro-screen img{
+    width: 100%;
+    position: absolute;
+    z-index: 201;
+}
+
 .overlay{
     background-color: rgba(0, 0, 0, .8);
     position: absolute;

@@ -1,9 +1,16 @@
-dateStart();
+
+
 var datingSiteVisible;
 var dateTurns = 0;
 var convoTurns = 0;
 var love_score = 40;
 var trust_score = 40;
+
+
+
+dateStart();
+
+
 
 function dateStart(){
 	datingSite();
@@ -22,6 +29,7 @@ if(datingSiteVisible){
 		$('.js-dating-profile').slideUp("slow");
 		datingSiteVisible = false;
 	});
+
 	startConversation();
 
 }
@@ -71,20 +79,20 @@ function startConversation(){
 }
 
 $('.js-number-btn').click(function(){
+
 	$('.js-textbox-container-you').fadeOut("fast");
 	$('.js-they-textbox').fadeIn("fast");
 	$('.js-they-textbox-content').text('');
 	$('.js-loading-question').fadeIn();
-	  setTimeout(function () {
-      $('.js-loading-question').fadeOut("fast", function(){
-	      	if(love_score > 75 && trust_score > 50){
-		  		$('.js-they-textbox-content').text('Absolutely, here it is. Me and the meowsters can\'t wait to see you later.');
-		  	}else{
-		  		$('.js-they-textbox-content').text('Oh, I don\'t think so. This has been quite dreadful, I think I\'m done dating for some time.');
-		  	}
-      });
 
-
+  setTimeout(function () {
+    $('.js-loading-question').fadeOut("fast", function(){
+      	if(love_score > 75 && trust_score > 50){
+	  		$('.js-they-textbox-content').text('Absolutely, here it is. Me and the meowsters can\'t wait to see you later.');
+	  	}else{
+	  		$('.js-they-textbox-content').text('Oh, I don\'t think so. This has been quite dreadful, I think I\'m done dating for some time.');
+	  	}
+    });
   }, 4000);
 });
 
@@ -105,8 +113,6 @@ $('.js-topic-btn').click(function(){
 	trust_score = Math.min(100,trust_score + conv_catlady[dateTurns][thisTopicNum].trust_pts);
 	updateState(love_score,trust_score,old_love_score,old_trust_score);
 
-	console.log('love points ' + love_score);
-	console.log('trust points ' + trust_score);
 
 	dateTurns++;
   setTimeout(function () {
@@ -141,15 +147,9 @@ $('.js-answer-btn').click(function(){
 
 
 function updateState(love_score,trust_score,old_love_score,old_trust_score) {
-<<<<<<< HEAD
-  love_score_pct = love_score + '%';
-  trust_score_pct = trust_score + '%';
-	$('.js-attraction-bar').width(love_score_pct);
-	$('.js-trust-bar').width(trust_score_pct);
 
-=======
-	    love_score_pct = love_score + '%';
-	    trust_score_pct = trust_score + '%';
+	  love_score_pct = love_score + '%';
+	  trust_score_pct = trust_score + '%';
 		$('.js-attraction-bar').width(love_score_pct);
 		$('.js-trust-bar').width(trust_score_pct);
 		if (trust_score + love_score - old_love_score - old_trust_score > 10) {
@@ -161,6 +161,5 @@ function updateState(love_score,trust_score,old_love_score,old_trust_score) {
 		else {
 			$(".person").attr("src","img/jenn-photos/neutral.jpg");
 		}
-		
->>>>>>> 501f8f3ed901d9670564ea5e4496634d0c371b07
+
 }
