@@ -1,0 +1,38 @@
+{
+  "What's your favorite posish, bro?": [
+    {
+      "text": "Hehe, I don't know, all of them?", 
+      "pts": 15
+    }, 
+    {
+      "text": "I'm just gonna pretend you didn't ask that.", 
+      "pts": -15
+    }, 
+    {
+      "text": "The Reverse Kawasaki.", 
+      "pts": 85
+    }, 
+    {
+      "text": "The pickaxe.", 
+      "pts": 15
+    }
+  ], 
+  "How do you align your chakras?": [
+    {
+      "text": "Yes.", 
+      "pts": 50
+    }, 
+    {
+      "text": "Hell yes.", 
+      "pts": -25
+    }, 
+    {
+      "text": "No, I'm more of a dog person.", 
+      "pts": 0
+    }, 
+    {
+      "text": "I'm allergic.", 
+      "pts": 99
+    }
+  ]
+}

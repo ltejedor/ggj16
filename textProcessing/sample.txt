@@ -1,0 +1,45 @@
+Date 1
+
+
+TURN1
+
+Question: How do you align your chakras?
+
+*Yes. [50]
+*Hell yes. [-25]
+*No, I'm more of a dog person. [0]
+*I'm allergic. [99]
+
+TURN2
+
+*The weather [0]
+#response
+*Personal story [20]
+#response
+*Tell a joke [35]
+#response
+*Cooking [-44]
+#response..
+
+TURN3
+
+Question: What's your favorite posish, bro?
+
+*Hehe, I don't know, all of them? [15]
+*I'm just gonna pretend you didn't ask that. [-15]
+*The Reverse Kawasaki. [85]
+*The pickaxe. [15]
+
+TURN4
+
+*Hobbies [30]
+#I like showering. On the weekends, I'll shower for hours at a time.
+*Cats [60]
+#Greeeeaaaaat, yet another cat person...
+*My ex [-60]
+#Why would you  bring up your ex on a first date??!
+*Current events [-35]
+#Oh, I looove Rush Limbough
+
+
+END-- ASK FOR #
