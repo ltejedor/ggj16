@@ -1,0 +1,78 @@
+Date4
+Tony (Hipster)
+
+Hi, let's keep it simple.
+Would you like to spend some time together but being independent? Have a friend to meet whenever you want for a simple coffee, a yoga class Or a walk on the beach?
+I'm an attractive, classy, well groomed and successful person looking for non commitment relation. Means can include some intimate relations but could not be successful if nothing else.
+I speak english, French, Spanish and some portuguese and Germán...
+Are you in?
+
+TURN1 1 1 1 2
+*Music [36] <12>
+#Oh yeah!! Music goes great with drugs.
+*Politics [-32] <-17>
+#Who the fuck talks about politics on the first date, do you think I'm just some sheep puppet?
+*Work [10] <10>
+#I'm working on a skate video now, I'm going to get sponsored and make that my new life.
+*Video Games [-10] <-13>
+#I hope you're not one of those World of Warcraft nerds.
+
+TURN2 1 1 1 2
+Question: "What do you think about GMOs?"
+
+*They're not really a big deal to me. [-22] <-18>
+#God, I'm tired of all the sheeple in this city.
+*(LIE) I liked their early stuff. [-27] <-22>
+#What are you talking about?
+*I only eat organic. [29] <31>
+#Agreed! Everything else gives you cancer.
+*The fact that you asked me that question literally gave me cancer. [-29] <-24>
+#The fact that you exist literally gives me cancer.
+
+TURN3 1 1 1 2
+*Photography [18] <20>
+#Yeah, I don't really take photos or anything. It's just kind of cool to have.
+*Books [22] <13>
+#Chuck Palahniuk is definitely my favorite. I love his shock writing. He's such a talented writer!
+*Fashion [-10] <5>
+#I would never shop at a brand store for clothes. What kind of pleb do you think I am? I get all my clothes second-hand or Urban Outfitters.
+*Computers [5] <5>
+#I'm a Mac guy. I can't stand PCs, they're so ugly.
+
+
+TURN4 1 1 1 2
+Question: "Who has been the biggest influence in your life?"
+
+*(LIE) Elifasi Msomi [32] <20>
+#That's the sitarist, right? I'm a huge fan!
+*(LIE) Billy Chapman [-10] <-10>
+#Ugh, punk died in 1992.
+*Lizzie Borden [10] <10>
+#I liked her early stuff, before she became mainstream.
+*(LIE) Frankie Stewart Silver[-10] <-10>
+#Pleb.
+
+
+TURN5 1 1 1 2
+*Beer [10] <10>
+#Triple hopped porter stout IPA filtered nitro. Next question.
+*Poetry [30] <20>
+#I love Pablo Neruda! But that's it.
+*TV shows [-26] <0>
+#Ew, does anyone even own a TV anymore? Who even are you?
+*The Apocalypse [19] <27>
+#I welcome the end of the world. Wouldn't it be so exciting to live through a nuclear winter?
+
+Next
+
+TURN6 1 1 1 2
+Question: "What's your spirit animal?"
+
+*Lion [32] <22>
+#No way, me too! Can I take your picture? It's like we're on a safari!
+*Mongoose [5] <5>
+#Does that mean you eat snakes?
+*Lin-Manuel Miranda [-27] <-17>
+#Ugh, I bet you haven't even listened to In The Heights. I can't stand band-wagon fans.
+*Spirit animals are so 2007. [-38] <-22>
+#This date is so over.

@@ -92,6 +92,6 @@ def twine2json(filename,outname):
 	outputOps(conversation,outname)
 
 if __name__ == "__main__":
-	twine2json("dog.txt","dog.json")
+	twine2json("hippie-date2.txt","hippie.json")
 	print("fdajsl")
 
