@@ -127,5 +127,14 @@ function updateState(love_score,trust_score,old_love_score,old_trust_score) {
 	    trust_score_pct = trust_score + '%';
 		$('.js-attraction-bar').width(love_score_pct);
 		$('.js-trust-bar').width(trust_score_pct);
-
+		if (trust_score + love_score - old_love_score - old_trust_score > 10) {
+			$(".person").attr("src","img/jenn-photos/happy.jpg");
+		}
+		else if (trust_score + love_score - old_love_score - old_trust_score < -10) {
+			$(".person").attr("src","img/jenn-photos/grossedout.jpg");
+		}
+		else {
+			$(".person").attr("src","img/jenn-photos/neutral.jpg");
+		}
+		
 }
