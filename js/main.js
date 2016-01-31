@@ -76,9 +76,12 @@ $('.js-topic-btn').click(function(){
 
 	var old_love_score = love_score;
 	var old_trust_score = trust_score;
-	love_score += conv_catlady[dateTurns][thisTopicNum].love_pts;
-	trust_score += conv_catlady[dateTurns][thisTopicNum].trust_pts;
+	love_score = Math.min(100,love_score + conv_catlady[dateTurns][thisTopicNum].love_pts);
+	trust_score = Math.min(100,trust_score + conv_catlady[dateTurns][thisTopicNum].trust_pts);
 	updateState(love_score,trust_score,old_love_score,old_trust_score);
+
+	console.log('love points ' + love_score);
+	console.log('trust points ' + trust_score);
 
 	dateTurns++;
   setTimeout(function () {
@@ -97,8 +100,12 @@ $('.js-answer-btn').click(function(){
 
 	var old_love_score = love_score;
 	var old_trust_score = trust_score;
-	love_score += conv_catlady[dateTurns][1][thisAnswerNum].love_pts;
-	trust_score += conv_catlady[dateTurns][1][thisAnswerNum].trust_pts;
+	love_score = Math.min(100,love_score + conv_catlady[dateTurns][1][thisAnswerNum].love_pts);
+	trust_score = Math.min(100,trust_score + conv_catlady[dateTurns][1][thisAnswerNum].trust_pts);
+
+	console.log('love points ' + love_score);
+	console.log('trust points ' + trust_score);
+
 	updateState(love_score,trust_score,old_love_score,old_trust_score);
 
 	dateTurns++;
@@ -109,9 +116,9 @@ $('.js-answer-btn').click(function(){
 
 
 function updateState(love_score,trust_score,old_love_score,old_trust_score) {
-		// change % thingie to current love_score
-		// change % thingie to current trust_score
-		$('.js-attraction-bar').css('width', love_score);
-		$('.js-trust-bar').css('width', trust_score);
+	    love_score_pct = love_score + '%';
+	    trust_score_pct = trust_score + '%';
+		$('.js-attraction-bar').width(love_score_pct);
+		$('.js-trust-bar').width(trust_score_pct);
 
 }
