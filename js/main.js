@@ -141,9 +141,26 @@ $('.js-answer-btn').click(function(){
 
 
 function updateState(love_score,trust_score,old_love_score,old_trust_score) {
+<<<<<<< HEAD
   love_score_pct = love_score + '%';
   trust_score_pct = trust_score + '%';
 	$('.js-attraction-bar').width(love_score_pct);
 	$('.js-trust-bar').width(trust_score_pct);
 
+=======
+	    love_score_pct = love_score + '%';
+	    trust_score_pct = trust_score + '%';
+		$('.js-attraction-bar').width(love_score_pct);
+		$('.js-trust-bar').width(trust_score_pct);
+		if (trust_score + love_score - old_love_score - old_trust_score > 10) {
+			$(".person").attr("src","img/jenn-photos/happy.jpg");
+		}
+		else if (trust_score + love_score - old_love_score - old_trust_score < -10) {
+			$(".person").attr("src","img/jenn-photos/grossedout.jpg");
+		}
+		else {
+			$(".person").attr("src","img/jenn-photos/neutral.jpg");
+		}
+		
+>>>>>>> 501f8f3ed901d9670564ea5e4496634d0c371b07
 }
