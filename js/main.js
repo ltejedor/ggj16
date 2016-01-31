@@ -21,16 +21,24 @@ if(datingSiteVisible){
 		datingSiteVisible = false;
 	});
 	startConversation();
+
 }
 
 function startConversation(){
-	for(var i = 0; i < conversation[dateTurns].length; i++){
-		var currentTopic = conversation[dateTurns][i].prompt_text;
-		$('.js-topic-' + i).text(currentTopic);
+	if(console.log(conversation[dateTurns].length) != 2){
+		for(var i = 0; i < conversation[dateTurns].length; i++){
+			var currentTopic = conversation[dateTurns][i].prompt_text;
+			$('.js-topic-' + i).text(currentTopic);
+		}
+	}
+	else{
+		console.log('this is where the dating person says stuff');
 	}
 }
 
 $('.js-topic-btn').click(function(){
+	$('.js-textbox-container-you').fadeOut();
+
 	var thisTopicNum = parseInt($(this).attr('name'));
 	console.log(thisTopicNum)
 	$('.js-they-textbox').fadeIn();
@@ -38,4 +46,8 @@ $('.js-topic-btn').click(function(){
 
 
 	dateTurns++;
+  setTimeout(function () {
+      startConversation();
+  }, 5000);
+
 });
