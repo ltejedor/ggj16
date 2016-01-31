@@ -75,5 +75,4 @@ $('.js-topic-btn').click(function(){
 });
 
 $('.js-answer-btn').click(function(){
-
 });
