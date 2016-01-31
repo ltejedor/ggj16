@@ -1,18 +1,15 @@
-# current events wrong answer
-# add her response to your response to the question
-
 import json
 
 # conversation = [p,q,p,q,...]
 # p = [prompt,prompt,prompt,prompt]
 # prompts are dictionaries with
-# .prompt_txt
+# .prompt_text
 # .response_txt
 # .trust_pts 
 # .love_pts 
 # q = [question_string,[answer,answer,answer,answer]]
 # answers are dictionaries with 
-# .answer_txt
+# .answer_text
 # .response_txt
 # .trust_pts 
 # .love_pts 
