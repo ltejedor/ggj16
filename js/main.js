@@ -9,6 +9,7 @@ function dateStart(){
 	datingSite();
 }
 
+
 function datingSite(){
 	$( ".js-cover" ).fadeIn( "slow" );
 	$('.js-dating-profile').slideDown("slow");
@@ -70,7 +71,24 @@ function startConversation(){
 }
 
 $('.js-number-btn').click(function(){
+	$('.js-textbox-container-you').fadeOut("fast");
+	$('.js-they-textbox').fadeIn("fast");
+	$('.js-they-textbox-content').text('');
+	$('.js-loading-question').fadeIn();
+	  setTimeout(function () {
+      $('.js-loading-question').fadeOut("fast", function(){
+	      	if(love_score > 75 && trust_score > 50){
+		  		$('.js-they-textbox-content').text('Absolutely, here it is. Me and the meowsters can\'t wait to see you later.');
+		  	}else{
+		  		$('.js-they-textbox-content').text('Oh, I don\'t think so. This has been quite dreadful, I think I\'m done dating for some time.');
+		  	}
+      });
+
+
+  }, 4000);
 });
+
+
 
 $('.js-topic-btn').click(function(){
 	$('.js-textbox-container-you').fadeOut();
@@ -117,6 +135,11 @@ $('.js-answer-btn').click(function(){
 
 
 function updateState(person,love_score,trust_score,old_love_score,old_trust_score) {
+  love_score_pct = love_score + '%';
+  trust_score_pct = trust_score + '%';
+	$('.js-attraction-bar').width(love_score_pct);
+	$('.js-trust-bar').width(trust_score_pct);
+
 	    love_score_pct = love_score + '%';
 	    trust_score_pct = trust_score + '%';
 		$('.js-attraction-bar').width(love_score_pct);

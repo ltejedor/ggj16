@@ -433,6 +433,7 @@ box-shadow: inset 0px 11px 9px -10px rgba(42,43,54,1);
 }
 
 .number-btn{
+    cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
