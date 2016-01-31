@@ -109,8 +109,13 @@ $('.js-number-btn').click(function(){
 		  	}
       });
 
+     	setTimeout(function () {
+     		//document.location.href = /hippiedate.html;
+	  	}, 3000);
 
   }, 4000);
+
+
 });
 
 
