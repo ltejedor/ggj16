@@ -69,6 +69,9 @@ function startConversation(){
 	}
 }
 
+$('.js-number-btn').click(function(){
+});
+
 $('.js-topic-btn').click(function(){
 	$('.js-textbox-container-you').fadeOut();
 	$('.js-you-ask-txt').css('display', 'none');
