@@ -432,6 +432,31 @@ box-shadow: inset 0px 11px 9px -10px rgba(42,43,54,1);
     overflow: scroll;
 }
 
+.number-btn{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin: 24px auto;
+    font-size: 2em;
+    width: 35%;
+    background-color: #6393C6;
+    padding: 6px 0 1px;
+    border-radius: 10px;
+    color: #F7F2F3;
+    border: 5px solid #414150;
+}
+
+.number-btn:hover{
+    background-color: #6E9FD4;
+}
+
+.number-btn:active{
+    background-color: #5A84B1;
+    -webkit-box-shadow: inset 0px 11px 9px -10px rgba(42,43,54,1);
+    -moz-box-shadow: inset 0px 11px 9px -10px rgba(42,43,54,1);
+    box-shadow: inset 0px 11px 9px -10px rgba(42,43,54,1);
+}
+
 .is-hidden{
     display: none;
 }
