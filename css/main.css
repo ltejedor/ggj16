@@ -1,0 +1,386 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Dexter Game Specific Styling
+   ========================================================================== */
+
+body{
+    overflow: hidden;
+    font-family: 'Lekton', sans-serif;
+}
+
+.table{
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    left: 0; bottom: 0; right: 0;
+    z-index: 1;
+}
+
+.person{
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    z-index: 0;
+}
+
+.progress-bar-container{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    z-index: 3;
+}
+
+.progress-icon{
+    margin-right: 13px;
+    margin-top: 14px;
+    width: 37px;
+}
+
+.progress-bar {
+    float: right;
+    background-color: #1a1a1a;
+    height: 25px;
+    padding: 5px;
+    width: 350px;
+    margin: 9px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+}
+
+.progress-bar span {
+    display: inline-block;
+    height: 100%;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    transition: width .4s ease-in-out;
+}
+
+.pink span {
+    background-color: #B70C73;
+}
+
+.blue span {
+    background-color: #6393C6;
+}
+
+.green span {
+      background-color: #a5df41;
+      background-image: linear-gradient(top, #a5df41, #4ca916);
+}
+
+.stripes span {
+    background-size: 30px 30px;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+                        transparent 75%, transparent);
+
+    animation: animate-stripes 7s linear infinite;
+}
+
+@keyframes animate-stripes {
+    0% {background-position: 0 0;} 100% {background-position: 60px 0;}
+}
+
+
+.textbox-container{
+    width: 100%;
+    height: 190px;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.you-textbox{
+    width: 97%;
+    background-color: #F7F2F3;
+    z-index: 3;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    height: 155px;
+    border-radius: 10px;
+    border: #6393C6 solid 5px;
+}
+
+.textbox-label{
+    background-color: #F7F2F3;
+    border-radius: 10px 10px 17px 17px;
+    border: #6393C6 solid 5px;
+    width: 35%;
+    position: absolute;
+    margin: auto;
+    border-bottom: #F7F2F3 solid 15px;
+    z-index: 4;
+}
+
+.textbox-label p{
+    margin: 10px 20px -10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.label-left{
+    top: -20px;
+    left: 0;
+    right: 56%;
+}
+
+.label-right{
+    top: -40px;
+    left: 50%;
+    right: 0;
+}
+
+.you-answer-textbox{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.text-btn{
+    width: 80%;
+    border-radius: 5px;
+    border: #124068 3px solid;
+    margin: 15px auto;
+    height: 20px;
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.truth-container{
+    position: absolute;
+    left: 15px;
+    width: 50%;
+}
+
+.btn-truth{
+    background-color: #6393C6;
+}
+
+.lies-container{
+    position: absolute;
+    right: 15px;
+    width: 50%;
+}
+
+.btn-lie{
+    background-color: #C74A4A;
+}
+
+.they-textbox{
+    opacity: .85;
+    position: absolute;
+    top: 55px;
+    right: 35px;
+    width: 400px;
+    z-index: 3;
+    background-color: #F7F2F3;
+    border-radius: 10px;
+    border: #124068 solid 3px;
+}
+
+.they-textbox .label-left{
+    font-size: .75em;
+    margin-top: 9px;
+    top: -34px;
+    border: #124068 solid 3px;
+    border-bottom: #F7F2F3 solid 13px;
+}
+
+.they-textbox-content{
+    margin: 20px 0 10px;
+    padding: 0 20px;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.is-hidden{
+    display: none;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
