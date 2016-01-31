@@ -1,0 +1,96 @@
+Date5
+Taco (Dog)
+
+I am a dog.
+
+TURN1 1 1 1 1
+*Museums [36] <-17>
+#Bark! Bark bark!
+*Childhood [-11] <-26>
+#Bark! Bark bark!
+*Animals [50] <50>
+#Bark! Bark bark!
+*Poetry [-42] <30>
+#Bark! Bark bark!
+
+Next
+
+TURN2 1 1 1 1
+Question: Rrrrrrr, bark bark! Bark! Bark, bark!
+
+*Yes [38] <41>
+#Bark! Rrrrrrr bark!
+*I don't like to talk about my job. [19] <21>
+#Bark! Rrrrrrr bark!
+*How dare you speak to me that way! [24] <-31>
+#Bark! Rrrrrrr bark!
+*What the fuck am I doing with my life? [-31] <24>
+#Bark! Rrrrrrr bark!
+
+Next
+
+TURN3 1 1 1 1
+*Movies [22] <-19>
+#Bark! Bark!
+*Travel [21] <35>
+#Bark! Bark!
+*Career [-31] <21>
+#Bark! Bark!
+*Drugs [-44] <-8>
+#Bark! Bark!
+
+Next
+
+TURN4 1 1 1 1
+Question: Ruff ruff, rrrr bark!
+
+*No. [20] <29>
+# Ruff! Bark bark!
+*I don't understand. I am not a dog. [-33] <33>
+# Ruff! Bark bark!
+*Do you want to go on a walk? [37] <-44>
+# Ruff! Bark bark!
+*Very well, thank you for asking. [-17] <22>
+# Ruff! Bark bark!
+
+Next
+
+TURN5 1 1 1 1
+*Cooking [19] <-5>
+#Rrrrrrrr!
+*Personal story [31] <27>
+#Rrrrrrrr!
+*Video games [5] <-30>
+#Rrrrrrrr!
+*Books [12] <-3>
+#Rrrrrrrr!
+
+Next
+
+TURN6 1 1 1 1
+Question: Bark bark, rrrrrrrrr woof!
+
+*Hahaha, that's a good one! [26] <11>
+#One must still have chaos in oneself to be able to give birth to a dancing star.
+*Do you want a treat? [22] <5>
+#Psychologically experienced consciousness is therefore no longer pure consciousness; construed Objectively in this way, consciousness itself becomes something transcendent, becomes an event in that spatial world which appears, by virtue of consciousness, to be transcendent.
+*(LIE) Actually, I love my job. [-22] <-31>
+#Like everything metaphysical the harmony between thought and reality is to be found in the grammar of the language.
+*My favorite color is red. [9] <19>
+#The fundamental problem of political philosophy is still precisely the one that Spinoza saw so clearly (and that Wilhelm Reich rediscovered): Why do men fight for their servitude as stubbornly as though it were their salvation?
+
+Next
+
+END 1 1 1 1
+[if $attraction > 60] "I had fun!"
+[if $attraction < 60] "Byyyyye"
+
+Ask for number: [$attraction]%
+
+SUCCESS! [+1 phone number]
+or
+FAIL! [+0]
+
+
+
+

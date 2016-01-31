@@ -34,6 +34,7 @@ def inputOps(filename):
 				inQ   = True
 				qtext = line.replace("Question: ","")
 				q     = [qtext,[]]
+				print(q)
 			elif line.startswith("*"):
 				if inQ:
 					ans          = line.replace("*","")
@@ -71,14 +72,19 @@ def inputOps(filename):
 			elif line.startswith("#"):
 					response              = line.replace("#","")
 					pDict["response_txt"] = response
-					p.append(pDict)
-
+					if pDict not in p:
+						p.append(pDict)
+		if inP:
+			conversation.append(p)
+		if inQ:
+			conversation.append(q)
 	return conversation
 
 
 def outputOps(obj,outname="out.json"):
 	with open(outname,'w') as f:
-		f.write(json.dumps(obj,indent=2))
+		json_obj = json.dumps(obj,indent=2)
+		f.write(json_obj)
 
 def twine2json(filename,outname):
 	conversation = inputOps(filename)
