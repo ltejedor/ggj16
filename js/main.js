@@ -4,6 +4,7 @@ var dateTurns = 0;
 var convoTurns = 0;
 var love_score = 40;
 var trust_score = 40;
+var person = "catlady";
 
 function dateStart(){
 	datingSite();
@@ -79,8 +80,14 @@ $('.js-number-btn').click(function(){
       $('.js-loading-question').fadeOut("fast", function(){
 	      	if(love_score > 75 && trust_score > 50){
 		  		$('.js-they-textbox-content').text('Absolutely, here it is. Me and the meowsters can\'t wait to see you later.');
+				if (person==="catlady") {
+					$(".person").attr("src","img/jenn-photos/happy.jpg");
+				}
 		  	}else{
 		  		$('.js-they-textbox-content').text('Oh, I don\'t think so. This has been quite dreadful, I think I\'m done dating for some time.');
+				if (person==="catlady") {
+					$(".person").attr("src","img/jenn-photos/grossedout.jpg");
+				}
 		  	}
       });
 
