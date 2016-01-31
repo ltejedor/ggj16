@@ -109,9 +109,8 @@ $('.js-number-btn').click(function(){
 		  	}
       });
 
-     	setTimeout(function () {
-     		//document.location.href = /hippiedate.html;
-	  	}, 3000);
+      $('.js-textbox-container-you').fadeIn("fast");
+      $('.js-change-end').replaceWith('<a href="http://ltejedor.github.io/ggj16/hippiedate.html">Next Date</a>')
 
   }, 4000);
 
