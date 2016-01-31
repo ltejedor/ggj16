@@ -1,3 +1,6 @@
+# Javascript usage:
+# var text = JSON.parse(file_contents);
+
 import json
 
 # conversation = [p,q,p,q,...]
