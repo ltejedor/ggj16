@@ -204,6 +204,13 @@ body{
     padding: 15px;
     color: #fff;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.text-btn:active{
+-webkit-box-shadow: inset 0px 11px 9px -10px rgba(42,43,54,1);
+-moz-box-shadow: inset 0px 11px 9px -10px rgba(42,43,54,1);
+box-shadow: inset 0px 11px 9px -10px rgba(42,43,54,1);
 }
 
 .truth-container{
@@ -216,6 +223,15 @@ body{
     background-color: #6393C6;
 }
 
+.btn-truth:hover{
+    background-color: #6E9FD4;
+}
+
+
+.btn-truth:active{
+    background-color: #5A84B1;
+}
+
 .lies-container{
     position: absolute;
     right: 15px;
@@ -224,6 +240,14 @@ body{
 
 .btn-lie{
     background-color: #C74A4A;
+}
+
+.btn-lie:hover{
+    background-color: #D45050;
+}
+
+.btn-lie:active{
+    background-color: #A94141;
 }
 
 .they-textbox{
