@@ -1,0 +1,85 @@
+Date1
+Susan (Cat Lady)
+
+I am open minded, good looking, white female looking for a company. You should be an educated professional. I live by myself, I pay my own rent. I am a attractive & comedic person.
+
+Start Date
+
+TURN1
+*Hobbies [30] <5>
+#Well I love cats. Don't even get me started on cats. I think I have seventy-three cats right now. It's so hard to keep track anymore. After the first thirty, it's like, who's the owner here anyway? Them or me? Hahaha. Haha.
+*Cats [60] <10>
+#Oh my god I absolutely LOVE cats! I think I have seventy-three cats right now. It's so hard to keep track anymore. After the first thirty, it's like, who's the owner here anyway? Them or me? Hahaha. Haha.
+*My ex [-60] <-30>
+#Ugh. You know if you're not over your ex, we don't have to be doing this right now.
+*Current events [-35] <0>
+#I don't trust the news. The only news I like is the morning news because that's the only time they talk about happy things. The world is a dark and dangerous place; even the illusion of comfort in this desolate hellscape is a futile attempt for a temporary reprieve before succumbing to our inevitable mortality.
+
+Next
+
+TURN2
+Question: What do you do for a job?
+
+*I work with wood. [35] <10>
+#Ooh, a lumberjack? I've heard you make lots of money. Just curious, how many cats do you think could live off a lumberjack's salary? Three hundred? Five hundred? I'm asking for a friend.
+*(LIE) I always wanted to be a painter. [7] <5>
+#Aw, how cute. Can you draw me something? Can you draw cats?
+*(LIE) I have many passions. [20] <5>
+#I know what you mean. How could someone just have one thing they want to do with their life? Personally, I love cuddling cats, but I also love feeding cats, and making cats wear funny clothes, and watching my cats fall in love, and learning cat languages, and melding minds with my cats... Why limit ourselves?
+*Odd jobs. [-40] <-10>
+#Oh, so nothing reliable? I don't know if I could see myself with someone who doesn't have a real job.
+
+Next
+
+TURN3
+*The weather [0] <5>
+#Really? You can't think of anything better to ask?
+*Personal story [20] <10>
+#One time, Catticus Finch -- he's my racist cat -- killed my neighbor's pet parakeet and presented it to me as a noble sacrifice. Catticus was all, "rowr" and it was SO. CUTE. And tasty, too!
+*Tell a joke [35] <15>
+#Hahahaha! I love puns. How did you know?!
+*Cooking [-44] <-20>
+#What, just because I'm a woman you think I want to talk about cooking? Do you want me to cook for you, is that it? No. Not happening. Just forget it. God. How dare you?
+
+Next
+
+TURN4
+Question: What do you do for fun?
+
+*Chop wood. [-20] <5>
+#That sounds so boring. So you just chop wood all day? That's such a... okay, whatever, that's your thing I guess.
+*Go on long walks. [0] <5>
+#Okay. Boring.
+*Read. [30] <15>
+#I love reading! I read this one book about funny stories with talking cats. It was based on a true story. You should read it! You can borrow my copy.
+*Meditate. [10] <5>
+#Taking time for yourself is important, I guess. One of my older cats, Mr. Meowgi, taught me to clear my mind and align myself with nature. He's a goof. I love Mr. Meowgi.
+
+Next
+
+TURN5
+*Family [-25] <33>
+#My family isn't important anymore. The Herd is my family. Never forget it.
+*Music [35] <33>
+#I found this video on the internet of a cat playing a piano, but it's like "boof boof boof" and its fluffy cheeks are like "bleh. bleh. brrrrrrmf." Hehehe! You've GOT to see it!
+*Love [55] <33>
+#Aw, you're so sweet. Do you love me? Is that what you're trying to say? You're cute. You should meet my Herd. They're going to have to approve of you if we go on a second date, you know.
+*The voices [-79] <33>
+#Uhhhh... Are you... okay?
+
+Next
+
+TURN6
+Question: So, I have to ask... do you like cats?
+
+*Yes. [42] <33>
+#Good! I love cats. Have I told you about my cat Majesty? He's the oldest of my cats. He runs the herd, but the other day he got so scared of the vacuum that he ran into a wall. It was ADORABLE!
+*Hell yes. [49] <33>
+#Great! I love cats. Have I told you about my cat Majesty? He's the oldest of my cats. He runs the herd, but the other day he got so scared of the vacuum that he ran into a wall. It was ADORABLE!
+*No, I'm more of a dog person. [-60] <33>
+#Oh. I don't think this is going to work.
+*I'm allergic. [-86] <33>
+#Why am I even here? This just isn't going to work out.
+
+
+

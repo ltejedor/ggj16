@@ -19,7 +19,7 @@ def inputOps(filename):
 	inP          = False
 	with open(filename, 'r') as f:
 		for uglyline in f:
-			line = uglyline.replace("\n","")
+			line = uglyline.replace("\n","").replace("\r","")
 			if line.startswith("TURN"):
 				if inP:
 					conversation.append(p)
@@ -79,10 +79,10 @@ def outputOps(obj,outname="out.json"):
 
 def twine2json(filename,outname):
 	conversation = inputOps(filename)
-	print(json.dumps(conversation))
+	#print(json.dumps(conversation))
 	outputOps(conversation)
 
 if __name__ == "__main__":
-	twine2json("sample.txt","outfile.txt")
+	twine2json("ch1test.txt","outfile.txt")
+	print("fdajsl")
 
-	
