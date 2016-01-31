@@ -21,7 +21,7 @@
     {
       "trust_pts": 0, 
       "love_pts": -35, 
-      "response_txt": "Oh, so nothing reliable? I don't know if I could see myself with someone who doesn't have a real job.", 
+      "response_txt": "I don't trust the news. The only news I like is the morning news because that's the only time they talk about happy things. The world is a dark and dangerous place; even the illusion of comfort in this desolate hellscape is a futile attempt for a temporary reprieve before succumbing to our inevitable mortality.", 
       "prompt_text": "Current events"
     }
   ], 
@@ -31,22 +31,26 @@
       {
         "trust_pts": 10, 
         "love_pts": 35, 
-        "answer_text": "I work with wood."
+        "answer_text": "I work with wood.", 
+        "response_txt": "Ooh, a lumberjack? I've heard you make lots of money. Just curious, how many cats do you think could live off a lumberjack's salary? Three hundred? Five hundred? I'm asking for a friend."
       }, 
       {
         "trust_pts": 5, 
         "love_pts": 7, 
-        "answer_text": "(LIE) I always wanted to be a painter."
+        "answer_text": "(LIE) I always wanted to be a painter.", 
+        "response_txt": "Aw, how cute. Can you draw me something? Can you draw cats?"
       }, 
       {
         "trust_pts": 5, 
         "love_pts": 20, 
-        "answer_text": "(LIE) I have many passions."
+        "answer_text": "(LIE) I have many passions.", 
+        "response_txt": "I know what you mean. How could someone just have one thing they want to do with their life? Personally, I love cuddling cats, but I also love feeding cats, and making cats wear funny clothes, and watching my cats fall in love, and learning cat languages, and melding minds with my cats... Why limit ourselves?"
       }, 
       {
         "trust_pts": -10, 
         "love_pts": -40, 
-        "answer_text": "Odd jobs."
+        "answer_text": "Odd jobs.", 
+        "response_txt": "Oh, so nothing reliable? I don't know if I could see myself with someone who doesn't have a real job."
       }
     ]
   ], 
@@ -72,7 +76,7 @@
     {
       "trust_pts": -20, 
       "love_pts": -44, 
-      "response_txt": "Taking time for yourself is important, I guess. One of my older cats, Mr. Meowgi, taught me to clear my mind and align myself with nature. He's a goof. I love Mr. Meowgi.", 
+      "response_txt": "What, just because I'm a woman you think I want to talk about cooking? Do you want me to cook for you, is that it? No. Not happening. Just forget it. God. How dare you?", 
       "prompt_text": "Cooking"
     }
   ], 
@@ -82,22 +86,26 @@
       {
         "trust_pts": 5, 
         "love_pts": -20, 
-        "answer_text": "Chop wood."
+        "answer_text": "Chop wood.", 
+        "response_txt": "That sounds so boring. So you just chop wood all day? That's such a... okay, whatever, that's your thing I guess."
       }, 
       {
         "trust_pts": 5, 
         "love_pts": 0, 
-        "answer_text": "Go on long walks."
+        "answer_text": "Go on long walks.", 
+        "response_txt": "Okay. Boring."
       }, 
       {
         "trust_pts": 15, 
         "love_pts": 30, 
-        "answer_text": "Read."
+        "answer_text": "Read.", 
+        "response_txt": "I love reading! I read this one book about funny stories with talking cats. It was based on a true story. You should read it! You can borrow my copy."
       }, 
       {
         "trust_pts": 5, 
         "love_pts": 10, 
-        "answer_text": "Meditate."
+        "answer_text": "Meditate.", 
+        "response_txt": "Taking time for yourself is important, I guess. One of my older cats, Mr. Meowgi, taught me to clear my mind and align myself with nature. He's a goof. I love Mr. Meowgi."
       }
     ]
   ], 
@@ -123,7 +131,7 @@
     {
       "trust_pts": 33, 
       "love_pts": -79, 
-      "response_txt": "Why am I even here? This just isn't going to work out.", 
+      "response_txt": "Uhhhh... Are you... okay?", 
       "prompt_text": "The voices"
     }
   ], 
@@ -133,22 +141,26 @@
       {
         "trust_pts": 33, 
         "love_pts": 42, 
-        "answer_text": "Yes."
+        "answer_text": "Yes.", 
+        "response_txt": "Good! I love cats. Have I told you about my cat Majesty? He's the oldest of my cats. He runs the herd, but the other day he got so scared of the vacuum that he ran into a wall. It was ADORABLE!"
       }, 
       {
         "trust_pts": 33, 
         "love_pts": 49, 
-        "answer_text": "Hell yes."
+        "answer_text": "Hell yes.", 
+        "response_txt": "Great! I love cats. Have I told you about my cat Majesty? He's the oldest of my cats. He runs the herd, but the other day he got so scared of the vacuum that he ran into a wall. It was ADORABLE!"
       }, 
       {
         "trust_pts": 33, 
         "love_pts": -60, 
-        "answer_text": "No, I'm more of a dog person."
+        "answer_text": "No, I'm more of a dog person.", 
+        "response_txt": "Oh. I don't think this is going to work."
       }, 
       {
         "trust_pts": 33, 
         "love_pts": -86, 
-        "answer_text": "I'm allergic."
+        "answer_text": "I'm allergic.", 
+        "response_txt": "Why am I even here? This just isn't going to work out."
       }
     ]
   ]
