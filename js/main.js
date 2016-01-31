@@ -85,10 +85,7 @@ $('.js-topic-btn').click(function(){
 	var old_trust_score = trust_score;
 	love_score = Math.min(100,love_score + conv_catlady[dateTurns][thisTopicNum].love_pts);
 	trust_score = Math.min(100,trust_score + conv_catlady[dateTurns][thisTopicNum].trust_pts);
-	updateState(love_score,trust_score,old_love_score,old_trust_score);
-
-	console.log('love points ' + love_score);
-	console.log('trust points ' + trust_score);
+	updateState("catlady",love_score,trust_score,old_love_score,old_trust_score);
 
 	dateTurns++;
   setTimeout(function () {
@@ -110,10 +107,7 @@ $('.js-answer-btn').click(function(){
 	love_score = Math.min(100,love_score + conv_catlady[dateTurns][1][thisAnswerNum].love_pts);
 	trust_score = Math.min(100,trust_score + conv_catlady[dateTurns][1][thisAnswerNum].trust_pts);
 
-	console.log('love points ' + love_score);
-	console.log('trust points ' + trust_score);
-
-	updateState(love_score,trust_score,old_love_score,old_trust_score);
+	updateState("catlady",love_score,trust_score,old_love_score,old_trust_score);
 
 	dateTurns++;
   setTimeout(function () {
@@ -122,19 +116,34 @@ $('.js-answer-btn').click(function(){
 });
 
 
-function updateState(love_score,trust_score,old_love_score,old_trust_score) {
+function updateState(person,love_score,trust_score,old_love_score,old_trust_score) {
 	    love_score_pct = love_score + '%';
 	    trust_score_pct = trust_score + '%';
 		$('.js-attraction-bar').width(love_score_pct);
 		$('.js-trust-bar').width(trust_score_pct);
 		if (trust_score + love_score - old_love_score - old_trust_score > 10) {
-			$(".person").attr("src","img/jenn-photos/happy.jpg");
+			if (person==="catlady") {
+				$(".person").attr("src","img/jenn-photos/happy.jpg");
+			}
+			else if (person==="hippie") {
+				$(".person").attr("src","img/hippie-photos/happy.jpg");
+			}
 		}
 		else if (trust_score + love_score - old_love_score - old_trust_score < -10) {
-			$(".person").attr("src","img/jenn-photos/grossedout.jpg");
+			if (person==="catlady") {
+				$(".person").attr("src","img/jenn-photos/grossedout.jpg");
+			}
+			else if (person==="hippie") {
+				$(".person").attr("src","img/hippie-photos/grossedout.jpg");
+			}
 		}
 		else {
-			$(".person").attr("src","img/jenn-photos/neutral.jpg");
+			if (person==="catlady"){
+				$(".person").attr("src","img/jenn-photos/neutral.jpg");
+			}
+			else if (person==="hippie"){
+				$(".person").attr("src","img/hippie-photos/neutral.jpg");
+			}
 		}
 		
 }
