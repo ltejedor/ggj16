@@ -5,40 +5,40 @@ TURN1
 
 Question: How do you align your chakras?
 
-*Yes. [50]
-*Hell yes. [-25]
-*No, I'm more of a dog person. [0]
-*I'm allergic. [99]
+*Yes. [50] <22>
+*Hell yes. [-25] <22>
+*No, I'm more of a dog person. [0] <22>
+*I'm allergic. [99] <22>
 
 TURN2
 
-*The weather [0]
+*The weather [0] <22>
 #response
-*Personal story [20]
+*Personal story [20] <22>
 #response
-*Tell a joke [35]
+*Tell a joke [35] <22>
 #response
-*Cooking [-44]
+*Cooking [-44] <22>
 #response..
 
 TURN3
 
 Question: What's your favorite posish, bro?
 
-*Hehe, I don't know, all of them? [15]
-*I'm just gonna pretend you didn't ask that. [-15]
-*The Reverse Kawasaki. [85]
-*The pickaxe. [15]
+*Hehe, I don't know, all of them? [15] <22>
+*I'm just gonna pretend you didn't ask that. [-15] <22>
+*The Reverse Kawasaki. [85] <22>
+*The pickaxe. [15] <22>
 
 TURN4
 
-*Hobbies [30]
+*Hobbies [30] <25>
 #I like showering. On the weekends, I'll shower for hours at a time.
-*Cats [60]
+*Cats [60] <22>
 #Greeeeaaaaat, yet another cat person...
-*My ex [-60]
+*My ex [-60] <22>
 #Why would you  bring up your ex on a first date??!
-*Current events [-35]
+*Current events [-35] <22>
 #Oh, I looove Rush Limbough
 
 

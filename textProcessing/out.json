@@ -1,38 +1,78 @@
-{
-  "What's your favorite posish, bro?": [
+[
+  [
+    "How do you align your chakras?", 
+    [
+      {
+        "trust_pts": 22, 
+        "love_pts": 50, 
+        "answer_text": "Yes."
+      }, 
+      {
+        "trust_pts": 22, 
+        "love_pts": -25, 
+        "answer_text": "Hell yes."
+      }, 
+      {
+        "trust_pts": 22, 
+        "love_pts": 0, 
+        "answer_text": "No, I'm more of a dog person."
+      }, 
+      {
+        "trust_pts": 22, 
+        "love_pts": 99, 
+        "answer_text": "I'm allergic."
+      }
+    ]
+  ], 
+  [
     {
-      "text": "Hehe, I don't know, all of them?", 
-      "pts": 15
+      "trust_pts": 22, 
+      "love_pts": 0, 
+      "response_txt": "response", 
+      "prompt_text": "The weather"
     }, 
     {
-      "text": "I'm just gonna pretend you didn't ask that.", 
-      "pts": -15
+      "trust_pts": 22, 
+      "love_pts": 20, 
+      "response_txt": "response", 
+      "prompt_text": "Personal story"
     }, 
     {
-      "text": "The Reverse Kawasaki.", 
-      "pts": 85
+      "trust_pts": 22, 
+      "love_pts": 35, 
+      "response_txt": "response", 
+      "prompt_text": "Tell a joke"
     }, 
     {
-      "text": "The pickaxe.", 
-      "pts": 15
+      "trust_pts": 22, 
+      "love_pts": -44, 
+      "response_txt": "response..", 
+      "prompt_text": "Cooking"
     }
   ], 
-  "How do you align your chakras?": [
-    {
-      "text": "Yes.", 
-      "pts": 50
-    }, 
-    {
-      "text": "Hell yes.", 
-      "pts": -25
-    }, 
-    {
-      "text": "No, I'm more of a dog person.", 
-      "pts": 0
-    }, 
-    {
-      "text": "I'm allergic.", 
-      "pts": 99
-    }
+  [
+    "What's your favorite posish, bro?", 
+    [
+      {
+        "trust_pts": 22, 
+        "love_pts": 15, 
+        "answer_text": "Hehe, I don't know, all of them?"
+      }, 
+      {
+        "trust_pts": 22, 
+        "love_pts": -15, 
+        "answer_text": "I'm just gonna pretend you didn't ask that."
+      }, 
+      {
+        "trust_pts": 22, 
+        "love_pts": 85, 
+        "answer_text": "The Reverse Kawasaki."
+      }, 
+      {
+        "trust_pts": 22, 
+        "love_pts": 15, 
+        "answer_text": "The pickaxe."
+      }
+    ]
   ]
-}
+]
