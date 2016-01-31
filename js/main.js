@@ -27,6 +27,11 @@ if(datingSiteVisible){
 function startConversation(){
 
 	if(conv_catlady[dateTurns].length != 2){
+		$('.js-they-textbox').fadeOut();
+
+		$('.js-textbox-container-you').fadeIn();
+		$('.js-you-ask-txt').css('display', 'block');
+
 		for(var i = 0; i < conv_catlady[dateTurns].length; i++){
 			var currentTopic = conv_catlady[dateTurns][i].prompt_text;
 			$('.js-topic-' + i).text(currentTopic);
@@ -63,7 +68,7 @@ $('.js-topic-btn').click(function(){
 	$('.js-you-ask-txt').css('display', 'none');
 
 	var thisTopicNum = parseInt($(this).attr('name'));
-	console.log(thisTopicNum)
+
 	$('.js-they-textbox').fadeIn();
 	$('.js-they-textbox-content').text(conv_catlady[dateTurns][thisTopicNum].response_txt);
 
@@ -75,4 +80,15 @@ $('.js-topic-btn').click(function(){
 });
 
 $('.js-answer-btn').click(function(){
+	$('.js-textbox-container-you').fadeOut();
+	$('.js-you-answer-txt').css('display', 'none');
+
+	var thisAnswerNum = parseInt($(this).attr('name'));
+
+	$('.js-they-textbox-content').text(conv_catlady[dateTurns][1][thisAnswerNum].response_txt);
+
+	dateTurns++;
+  setTimeout(function () {
+      startConversation();
+  }, 4000);
 });
