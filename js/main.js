@@ -3,6 +3,8 @@ dateStart();
 var datingSiteVisible;
 var dateTurns = 0;
 var convoTurns = 0;
+var love_score = 40;
+var trust_score = 40;
 
 function dateStart(){
 	datingSite();
@@ -72,6 +74,12 @@ $('.js-topic-btn').click(function(){
 	$('.js-they-textbox').fadeIn();
 	$('.js-they-textbox-content').text(conv_catlady[dateTurns][thisTopicNum].response_txt);
 
+	var old_love_score = love_score;
+	var old_trust_score = trust_score;
+	love_score += conv_catlady[dateTurns][thisTopicNum].love_pts;
+	trust_score += conv_catlady[dateTurns][thisTopicNum].trust_pts;
+	updateState(love_score,trust_score,old_love_score,old_trust_score);
+
 	dateTurns++;
   setTimeout(function () {
       startConversation();
@@ -87,8 +95,23 @@ $('.js-answer-btn').click(function(){
 
 	$('.js-they-textbox-content').text(conv_catlady[dateTurns][1][thisAnswerNum].response_txt);
 
+	var old_love_score = love_score;
+	var old_trust_score = trust_score;
+	love_score += conv_catlady[dateTurns][1][thisAnswerNum].love_pts;
+	trust_score += conv_catlady[dateTurns][1][thisAnswerNum].trust_pts;
+	updateState(love_score,trust_score,old_love_score,old_trust_score);
+
 	dateTurns++;
   setTimeout(function () {
       startConversation();
   }, 4000);
 });
+
+
+function updateState(love_score,trust_score,old_love_score,old_trust_score) {
+		// change % thingie to current love_score
+		// change % thingie to current trust_score
+		$('.js-attraction-bar').css('width', love_score);
+		$('.js-trust-bar').css('width', trust_score);
+
+}
