@@ -413,6 +413,8 @@ box-shadow: inset 0px 11px 9px -10px rgba(42,43,54,1);
     background-color: #F7F2F3;
     border-radius: 10px;
     border: #124068 solid 3px;
+    max-height: 300px;
+    overflow: scroll;
 }
 
 .they-textbox .label-left{

@@ -21,7 +21,7 @@ var conv_catlady = [
     {
       "trust_pts": 0,
       "love_pts": -35,
-      "response_txt": "Oh, so nothing reliable? I don't know if I could see myself with someone who doesn't have a real job.",
+      "response_txt": "I don't trust the news. The only news I like is the morning news because that's the only time they talk about happy things. The world is a dark and dangerous place; even the illusion of comfort in this desolate hellscape is a futile attempt for a temporary reprieve before succumbing to our inevitable mortality.",
       "prompt_text": "Current events"
     }
   ],
